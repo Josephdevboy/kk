@@ -1,0 +1,73 @@
+.logo{
+   height: 60px;
+   margin: 10px;
+
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.dashboard{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.dog1{
+    height: 400px;
+}
+
+.dash-text{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dash-text-2{
+    width: 700px;
+    font-size: 20px;
+    font-family:  'Arial Narrow';
+    font-weight: 400;
+}
+
+.dash-button{
+    background-color: burlywood;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.story{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.breaking-news{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.story-title{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dash-button:hover{
+    padding: 20px;
+}
+
+.story-image{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
